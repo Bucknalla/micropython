@@ -1,4 +1,4 @@
-BOARD ?= ikea
+BOARD ?= fin
 
 ifeq ($(wildcard boards/$(BOARD)/.),)
 $(error Invalid BOARD specified)
