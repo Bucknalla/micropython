@@ -1,6 +1,6 @@
-#define USART_TX_PORT gpioPortA
-#define USART_TX_PIN 0
-#define USART_TX_LOCATION USART_ROUTELOC0_TXLOC_LOC0 // ? found in af_pins.h somehow
-#define USART_RX_PORT gpioPortA
-#define USART_RX_PIN 1
-#define USART_RX_LOCATION USART_ROUTELOC0_RXLOC_LOC0
+#define USART_TX_PORT gpioPortF
+#define USART_TX_PIN 3
+#define USART_TX_LOCATION USART_ROUTELOC0_TXLOC_LOC27 // ? found in af_pins.h somehow
+#define USART_RX_PORT gpioPortF
+#define USART_RX_PIN 2
+#define USART_RX_LOCATION USART_ROUTELOC0_RXLOC_LOC25
