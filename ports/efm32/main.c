@@ -40,7 +40,7 @@
 #include "em_cmu.h"
 #include "em_emu.h"
 #include "em_usart.h"
-#include "zrepl.h"
+// #include "zrepl.h"
 //#include "radio.h"
 
 extern uint8_t __StackTop;
@@ -88,7 +88,7 @@ int main(int argc, char **argv)
 	mp_hal_stdout_init();
 
 //	radio_init();
-	zrepl_active = 1;
+	// zrepl_active = 1;
 
 soft_reset:
 	if (1)

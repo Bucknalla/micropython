@@ -36,9 +36,32 @@ uos.mount(uos.VfsLfs2(bdev), '/')
 		return
 
 	#print("SPI block device mounted on /")
-
-
-mount()
+print("""
+	    \\
+	     \\
+	      \\\\
+	       \\\\
+	        >\\/7
+	    _.-(6'  \\
+	   (=___._/` \\
+	        )  \\ |
+	       /   / |
+	      /    > /
+	     j    < _\\
+	 _.-' :      ``.
+	 \\ r=._\\        `.
+	<`\\\\_  \\         .`-.
+	 \\ r-7  `-. ._  ' .  `\\
+	  \\`,      `-.`7  7)   )
+	   \\/         \\|  \\'  / `-._
+	              ||    .'
+	               \\\\  (
+	                >\\  >
+	            ,.-' >.'
+	           <.'_.''
+	             <'
+""")
+# mount()
 
 def writefile(name, echo=True):
 	from sys import stdin
